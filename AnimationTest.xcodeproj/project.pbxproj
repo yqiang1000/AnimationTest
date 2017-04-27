@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		47F737771EB1A2A9006FFAC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737761EB1A2A9006FFAC6 /* main.m */; };
-		47F7377A1EB1A2A9006FFAC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737791EB1A2A9006FFAC6 /* AppDelegate.m */; };
-		47F7377D1EB1A2A9006FFAC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7377C1EB1A2A9006FFAC6 /* ViewController.m */; };
 		47F737801EB1A2A9006FFAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F7377E1EB1A2A9006FFAC6 /* Main.storyboard */; };
 		47F737821EB1A2A9006FFAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F737811EB1A2A9006FFAC6 /* Assets.xcassets */; };
 		47F737851EB1A2A9006FFAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F737831EB1A2A9006FFAC6 /* LaunchScreen.storyboard */; };
 		47F737901EB1A2A9006FFAC6 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7378F1EB1A2A9006FFAC6 /* AnimationTestTests.m */; };
 		47F7379B1EB1A2A9006FFAC6 /* AnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7379A1EB1A2A9006FFAC6 /* AnimationTestUITests.m */; };
+		47F737B21EB1C1AE006FFAC6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737B11EB1C1AE006FFAC6 /* BaseViewController.m */; };
+		47F737B51EB1C1C8006FFAC6 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737B41EB1C1C8006FFAC6 /* BaseNavigationController.m */; };
+		47F737B81EB1C1E1006FFAC6 /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737B71EB1C1E1006FFAC6 /* BaseTabbarController.m */; };
+		47F737BB1EB1C1FD006FFAC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737BA1EB1C1FD006FFAC6 /* AppDelegate.m */; };
+		47F737C41EB1CA28006FFAC6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737C31EB1CA28006FFAC6 /* FirstViewController.m */; };
+		47F737C71EB1CA32006FFAC6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737C61EB1CA32006FFAC6 /* SecondViewController.m */; };
+		47F737CA1EB1CA3C006FFAC6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737C91EB1CA3C006FFAC6 /* ThirdViewController.m */; };
+		47F737CD1EB1CA48006FFAC6 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737CC1EB1CA48006FFAC6 /* FourthViewController.m */; };
+		47F737D01EB1CA52006FFAC6 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F737CF1EB1CA52006FFAC6 /* FifthViewController.m */; };
 		8ADC31967013271CAF94AA98 /* libPods-AnimationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D74651D5813353A8524D6 /* libPods-AnimationTest.a */; };
 /* End PBXBuildFile section */
 
@@ -39,10 +46,6 @@
 		075D74651D5813353A8524D6 /* libPods-AnimationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F737721EB1A2A9006FFAC6 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F737761EB1A2A9006FFAC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47F737781EB1A2A9006FFAC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		47F737791EB1A2A9006FFAC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47F7377B1EB1A2A9006FFAC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		47F7377C1EB1A2A9006FFAC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		47F7377F1EB1A2A9006FFAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47F737811EB1A2A9006FFAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F737841EB1A2A9006FFAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +56,25 @@
 		47F737961EB1A2A9006FFAC6 /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F7379A1EB1A2A9006FFAC6 /* AnimationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestUITests.m; sourceTree = "<group>"; };
 		47F7379C1EB1A2A9006FFAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F737B01EB1C1AE006FFAC6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		47F737B11EB1C1AE006FFAC6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		47F737B31EB1C1C8006FFAC6 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		47F737B41EB1C1C8006FFAC6 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		47F737B61EB1C1E1006FFAC6 /* BaseTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		47F737B71EB1C1E1006FFAC6 /* BaseTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		47F737B91EB1C1FD006FFAC6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47F737BA1EB1C1FD006FFAC6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47F737C11EB1C7DB006FFAC6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		47F737C21EB1CA28006FFAC6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		47F737C31EB1CA28006FFAC6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		47F737C51EB1CA32006FFAC6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		47F737C61EB1CA32006FFAC6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		47F737C81EB1CA3C006FFAC6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		47F737C91EB1CA3C006FFAC6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		47F737CB1EB1CA48006FFAC6 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		47F737CC1EB1CA48006FFAC6 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		47F737CE1EB1CA52006FFAC6 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		47F737CF1EB1CA52006FFAC6 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		7F2E8E5077230C85AF17BF2D /* Pods-AnimationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationTest/Pods-AnimationTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C4261A48855D1BFC66D4B38B /* Pods-AnimationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationTest/Pods-AnimationTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,10 +130,12 @@
 		47F737741EB1A2A9006FFAC6 /* AnimationTest */ = {
 			isa = PBXGroup;
 			children = (
-				47F737781EB1A2A9006FFAC6 /* AppDelegate.h */,
-				47F737791EB1A2A9006FFAC6 /* AppDelegate.m */,
-				47F7377B1EB1A2A9006FFAC6 /* ViewController.h */,
-				47F7377C1EB1A2A9006FFAC6 /* ViewController.m */,
+				47F737AF1EB1C15C006FFAC6 /* Base */,
+				47F737BD1EB1C638006FFAC6 /* First */,
+				47F737BF1EB1C638006FFAC6 /* Second */,
+				47F737C01EB1C638006FFAC6 /* Third */,
+				47F737BE1EB1C638006FFAC6 /* Fourth */,
+				47F737BC1EB1C638006FFAC6 /* Fifth */,
 				47F7377E1EB1A2A9006FFAC6 /* Main.storyboard */,
 				47F737811EB1A2A9006FFAC6 /* Assets.xcassets */,
 				47F737831EB1A2A9006FFAC6 /* LaunchScreen.storyboard */,
@@ -145,6 +169,67 @@
 				47F7379C1EB1A2A9006FFAC6 /* Info.plist */,
 			);
 			path = AnimationTestUITests;
+			sourceTree = "<group>";
+		};
+		47F737AF1EB1C15C006FFAC6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47F737B91EB1C1FD006FFAC6 /* AppDelegate.h */,
+				47F737BA1EB1C1FD006FFAC6 /* AppDelegate.m */,
+				47F737B01EB1C1AE006FFAC6 /* BaseViewController.h */,
+				47F737B11EB1C1AE006FFAC6 /* BaseViewController.m */,
+				47F737B31EB1C1C8006FFAC6 /* BaseNavigationController.h */,
+				47F737B41EB1C1C8006FFAC6 /* BaseNavigationController.m */,
+				47F737B61EB1C1E1006FFAC6 /* BaseTabbarController.h */,
+				47F737B71EB1C1E1006FFAC6 /* BaseTabbarController.m */,
+				47F737C11EB1C7DB006FFAC6 /* PrefixHeader.pch */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		47F737BC1EB1C638006FFAC6 /* Fifth */ = {
+			isa = PBXGroup;
+			children = (
+				47F737CE1EB1CA52006FFAC6 /* FifthViewController.h */,
+				47F737CF1EB1CA52006FFAC6 /* FifthViewController.m */,
+			);
+			path = Fifth;
+			sourceTree = "<group>";
+		};
+		47F737BD1EB1C638006FFAC6 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				47F737C21EB1CA28006FFAC6 /* FirstViewController.h */,
+				47F737C31EB1CA28006FFAC6 /* FirstViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		47F737BE1EB1C638006FFAC6 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				47F737CB1EB1CA48006FFAC6 /* FourthViewController.h */,
+				47F737CC1EB1CA48006FFAC6 /* FourthViewController.m */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		47F737BF1EB1C638006FFAC6 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				47F737C51EB1CA32006FFAC6 /* SecondViewController.h */,
+				47F737C61EB1CA32006FFAC6 /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		47F737C01EB1C638006FFAC6 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				47F737C81EB1CA3C006FFAC6 /* ThirdViewController.h */,
+				47F737C91EB1CA3C006FFAC6 /* ThirdViewController.m */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 		7DBA8381E661513C34C46857 /* Pods */ = {
@@ -351,9 +436,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47F7377D1EB1A2A9006FFAC6 /* ViewController.m in Sources */,
-				47F7377A1EB1A2A9006FFAC6 /* AppDelegate.m in Sources */,
+				47F737B21EB1C1AE006FFAC6 /* BaseViewController.m in Sources */,
+				47F737C41EB1CA28006FFAC6 /* FirstViewController.m in Sources */,
+				47F737CA1EB1CA3C006FFAC6 /* ThirdViewController.m in Sources */,
 				47F737771EB1A2A9006FFAC6 /* main.m in Sources */,
+				47F737C71EB1CA32006FFAC6 /* SecondViewController.m in Sources */,
+				47F737B81EB1C1E1006FFAC6 /* BaseTabbarController.m in Sources */,
+				47F737CD1EB1CA48006FFAC6 /* FourthViewController.m in Sources */,
+				47F737B51EB1C1C8006FFAC6 /* BaseNavigationController.m in Sources */,
+				47F737D01EB1CA52006FFAC6 /* FifthViewController.m in Sources */,
+				47F737BB1EB1C1FD006FFAC6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +596,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3WYE463P9W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AnimationTest/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = AnimationTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,6 +612,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3WYE463P9W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AnimationTest/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = AnimationTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
